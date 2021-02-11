@@ -3,11 +3,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.stream.Collectors;
 
-public class ArrayListLibros {
+public class ArrayListLibros2 {
  
   private ArrayList<Libro> lista;
 
-  public ArrayListLibros() {
+  public ArrayListLibros2() {
     lista = new ArrayList<Libro>();
   }
 
@@ -38,7 +38,7 @@ public class ArrayListLibros {
 
   }
 
-  /*public void ordTitulo() {
+  public void ordTitulo() {
 
       Collections.sort(lista, new TituloComparator());
 
@@ -48,15 +48,9 @@ public class ArrayListLibros {
 
       Collections.sort(lista, new PaginasComparator());
 
-  }*/
-  
-  public void ordenarTituloStream () {
-	  lista = lista.stream().sorted((x,y) -> x.dameTitulo().compareToIgnoreCase(y.dameTitulo())).collect(Collectors.toCollection(ArrayList::new));  
-	  }
-  
-  public void ordenarPaginasStream () {
-	  lista = lista.stream().sorted((x,y) -> x.damePaginas()-y.damePaginas()).collect(Collectors.toCollection(ArrayList::new));
   }
+  
+  
   
 
   public boolean eliminar(int pos) {
