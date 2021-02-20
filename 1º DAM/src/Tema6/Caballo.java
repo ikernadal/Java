@@ -76,7 +76,7 @@ public class Caballo {
 	}
 	
 	public void vender() {
-		if (disponible) {
+		if (disponible == true) {
 			System.out.println("El caballo ya está comprado ");
 		} else {
 			disponible = true;

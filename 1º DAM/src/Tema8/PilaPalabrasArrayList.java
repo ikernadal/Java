@@ -31,7 +31,7 @@ public class PilaPalabrasArrayList {
 		return pila.isEmpty(); 
 	}
 
-	@Override
+	
 	public String toString() {
 		return "PilaPalabrasArrayList [pila=" + pila + "]";
 	}
