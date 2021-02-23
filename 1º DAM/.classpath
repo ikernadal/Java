@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="Tema8_Ejercicios_Resueltos"/>
 	<classpathentry kind="src" path="Tema6_v2"/>
 	<classpathentry kind="src" path="Tema7_v2"/>
+	<classpathentry kind="src" path="Tema8_v2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
